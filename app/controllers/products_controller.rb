@@ -3,6 +3,8 @@ class ProductsController < ActionController::Base
 
   end
 
+  
+
   def add
     cart << params[:product]
     render :index
